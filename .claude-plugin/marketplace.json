@@ -1,10 +1,18 @@
 {
   "name": "farmavet-marketplace",
-  "description": "Plugins de Claude Code para el equipo Farmavet",
+  "owner": {
+    "name": "Gonzalo Ramirez Abella"
+  },
+  "metadata": {
+    "description": "Plugins de Claude Code para el equipo Farmavet"
+  },
   "plugins": [
     {
       "name": "farmavet-claude-tools",
-      "source": "github.com/gonzaloramirezabella/mg-claude-tools",
+      "source": {
+        "source": "github",
+        "repo": "gonzaloramirezabella/mg-claude-tools"
+      },
       "description": "Task planning and execution with verification-first methodology"
     }
   ]
