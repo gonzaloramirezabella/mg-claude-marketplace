@@ -1,0 +1,11 @@
+{
+  "name": "farmavet-marketplace",
+  "description": "Plugins de Claude Code para el equipo Farmavet",
+  "plugins": [
+    {
+      "name": "farmavet-claude-tools",
+      "source": "gitlab.com/farmavet/farmavet-claude-tools",
+      "description": "Task planning and execution with verification-first methodology"
+    }
+  ]
+}
