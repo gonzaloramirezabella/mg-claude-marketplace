@@ -11,7 +11,7 @@
       "name": "farmavet-claude-tools",
       "source": {
         "source": "github",
-        "repo": "gonzaloramirezabella/mg-claude-tools"
+        "repo": "gonzaloramirezabella/mg-claude-code-plugins"
       },
       "description": "Task planning and execution with verification-first methodology"
     }
