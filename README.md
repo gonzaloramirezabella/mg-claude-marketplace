@@ -13,7 +13,7 @@ Marketplace centralizado de plugins de Claude Code para el equipo Farmavet.
 ### Agregar este marketplace a Claude Code
 
 ```bash
-/plugin marketplace add farmavet github.com/gonzaloramirezabella/mg-claude-marketplace
+/plugin marketplace add gonzaloramirezabella/mg-claude-marketplace
 ```
 
 ### Instalar un plugin
@@ -35,7 +35,7 @@ Añade a `.claude/settings.json` de tu proyecto:
 ```json
 {
   "marketplaces": [
-    {"name": "farmavet", "source": "github.com/gonzaloramirezabella/mg-claude-marketplace"}
+    {"name": "farmavet-marketplace", "source": {"source": "github", "repo": "gonzaloramirezabella/mg-claude-marketplace"}}
   ],
   "plugins": ["farmavet-claude-tools@farmavet"]
 }
