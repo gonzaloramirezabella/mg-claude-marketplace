@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "farmavet-claude-tools",
-      "source": "gitlab.com/farmavet/farmavet-claude-tools",
+      "source": "github.com/gonzaloramirezabella/mg-claude-tools",
       "description": "Task planning and execution with verification-first methodology"
     }
   ]

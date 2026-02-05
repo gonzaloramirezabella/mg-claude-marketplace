@@ -13,7 +13,7 @@ Marketplace centralizado de plugins de Claude Code para el equipo Farmavet.
 ### Agregar este marketplace a Claude Code
 
 ```bash
-/plugin marketplace add farmavet gitlab.com/farmavet/farmavet-claude-marketplace
+/plugin marketplace add farmavet github.com/gonzaloramirezabella/mg-claude-marketplace
 ```
 
 ### Instalar un plugin
@@ -35,7 +35,7 @@ Añade a `.claude/settings.json` de tu proyecto:
 ```json
 {
   "marketplaces": [
-    {"name": "farmavet", "source": "gitlab.com/farmavet/farmavet-claude-marketplace"}
+    {"name": "farmavet", "source": "github.com/gonzaloramirezabella/mg-claude-marketplace"}
   ],
   "plugins": ["farmavet-claude-tools@farmavet"]
 }
@@ -44,7 +44,7 @@ Añade a `.claude/settings.json` de tu proyecto:
 ## Agregar nuevos plugins al marketplace
 
 1. Crea tu plugin siguiendo la estructura estándar (`.claude-plugin/plugin.json`)
-2. Sube el plugin a GitLab bajo `gitlab.com/farmavet/`
+2. Sube el plugin a GitHub bajo `github.com/gonzaloramirezabella/`
 3. Añade la entrada en `.claude-plugin/marketplace.json` de este repo
 4. Crea un MR para revisión
 
